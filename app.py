@@ -153,6 +153,7 @@ df = load_data_from_string()
 # 2. DASHBOARD SETUP
 # ------------------------------------------------------------------------------
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
+server = app.server
 app.title = "National Disaster Resilience Tracker"
 
 # ------------------------------------------------------------------------------
